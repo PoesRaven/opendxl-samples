@@ -6,6 +6,7 @@ from dxlmarclient.constants import ProjectionConstants, ConditionConstants
 from dxltieclient import TieClient
 from dxltieclient.constants import HashType
 from dxlepoclient import EpoClient
+from dxlclient.callbacks import EventCallback
 
 # Import common logging and configuration
 #sys.path.append(os.path.dirname(os.path.abspath(__file__)) + "/..")
